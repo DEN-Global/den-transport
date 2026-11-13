@@ -5,4 +5,4 @@ for(const weight of [400,500,600,700])await copyFile(`../den-shared/node_modules
 
 await copyFile('../den-shared/src/theme-init.js','dist/den-theme.js');
 
-for(const file of ['den-background.js','den-background.css','accessories-pattern.jpg','glass-art-background.jpg','green-community.mp4','green-community-poster.jpg','inter-latin-400-normal.woff2','inter-latin-600-normal.woff2','space-grotesk-latin-700-normal.woff2','syne-latin-700-normal.woff2','plus-jakarta-sans-latin-400-normal.woff2','plus-jakarta-sans-latin-600-normal.woff2'])await copyFile('../den-shared/src/'+file,'dist/'+file);
+for(const file of ['den-background.js','den-background.css','accessories-pattern.jpg','glass-art-background.jpg','marketplace-background.jpg','green-community.mp4','green-community-poster.jpg','inter-latin-400-normal.woff2','inter-latin-600-normal.woff2','space-grotesk-latin-700-normal.woff2','syne-latin-700-normal.woff2','plus-jakarta-sans-latin-400-normal.woff2','plus-jakarta-sans-latin-600-normal.woff2'])await copyFile('../den-shared/src/'+file,'dist/'+file);
