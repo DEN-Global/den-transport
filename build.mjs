@@ -4,3 +4,5 @@ for(const f of ['index.html','app.js','style.css','network-mobility.css','theme-
 for(const weight of [400,500,600,700])await copyFile(`../den-shared/node_modules/@fontsource/inter/files/inter-latin-${weight}-normal.woff2`,`dist/fonts/inter-${weight}.woff2`);
 
 await copyFile('../den-shared/src/theme-init.js','dist/den-theme.js');
+
+for(const file of ['den-background.js','den-background.css'])await copyFile('../den-shared/src/'+file,'dist/'+file);
